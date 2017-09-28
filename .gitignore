@@ -1,0 +1,3 @@
+venv/*
+*.pyc
+simpsons_config.py
