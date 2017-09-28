@@ -8,29 +8,29 @@ You can configure this bot to use any reference you want. All you have to do is.
 
 Install **Python**
 
-```bash
+```
 $ apt-get install python
 ```
 
 Install **pip**. Recommended tool to install Python packages.
 
-```bash
+```
 $ apt-get install python-pip
 ```
 
 Install **Virtualenv**. An easy way to run Python applications on independent environments.
-```bash
+```
 $ pip install virtualenv
 ```
 
 Create bot directory and go there
-```bash
+```
 $ mkdir references_bot
 $ cd references_bot
 ```
 
 Setup **virtualenv**
-```bash
+```
 $ virtualenv venv
 $ . venv/bin/activate
 ```
@@ -39,7 +39,7 @@ $ . venv/bin/activate
 
 #### Step 1: Clone the repo
 
-```bash
+```
 $ git@github.com:Elielmau/references_bot.git
 ```
 
@@ -47,7 +47,7 @@ $ git@github.com:Elielmau/references_bot.git
 
 * Duplicate the config file.
 
-```bash
+```
 $ cp default_config.py my_config.py
 ```
 
@@ -60,13 +60,13 @@ $ cp default_config.py my_config.py
 
 * Change the config environment variable to point to your config file.
 
-```bash
+```
 $ export BOT_CONFIG=my_config
 ```
 
 #### Step 3: Run the bot.
 
-```bash
+```
 $ python references_bot.py
 ```
 
