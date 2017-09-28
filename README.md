@@ -37,17 +37,15 @@ $ . venv/bin/activate
 
 ## Bot Setup
 
-#### Step 1
-
-Clone the repo.
+#### Step 1: Clone the repo
 
 ```bash
 $ git@github.com:Elielmau/references_bot.git
 ```
 
-#### Step 2
+#### Step 2: Setup the config file
 
-Duplicate the config file.
+* Duplicate the config file.
 
 ```bash
 $ cp default_config.py my_config.py
@@ -55,31 +53,26 @@ $ cp default_config.py my_config.py
 
 *You may just use default_config.py and change its content.*
 
-#### Step 3
+* Iside **my_config.py**.
+  * Add your Telegram API key to ```api_key```.
+  * Change the standard messages ```console_start_message```, ```start_message```, ```help_response```, if you'd like to.
+  * Change ```references``` to your references, make sure you follow the format. You can use [this doc](https://docs.google.com/spreadsheets/d/1325sJKAzhlmJD9wmoRH-qyZoE2xWaodVz1kVzir9jh8/edit?usp=sharing) to help you format the references.
 
-* Open **my_config.py** and add your Telegram API key to ```api_key```.
-* Change the standard messages if you's like to.
-* Change ```references``` to your references, make sure you follow the format. You can use [this doc](https://docs.google.com/spreadsheets/d/1325sJKAzhlmJD9wmoRH-qyZoE2xWaodVz1kVzir9jh8/edit?usp=sharing) to help you format the references.
-
-#### Step 4
-
-Change the config environment variable to point to your config file.
+* Change the config environment variable to point to your config file.
 
 ```bash
 $ export BOT_CONFIG=my_config
 ```
 
-#### Step 5
-
-Run the bot.
+#### Step 3: Run the bot.
 
 ```bash
 $ python references_bot.py
 ```
 
-#### Step 6
+#### Step 4: Start talking with the bot
 
-Start talking with the bot and enjoying the references.
+And enjoying the references.
 
 ## Authors
 
