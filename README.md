@@ -35,6 +35,11 @@ $ virtualenv venv
 $ . venv/bin/activate
 ```
 
+Install **python-telegram-bot**
+```
+$ pip install python-telegram-bot
+```
+
 ## Bot Setup
 
 #### Step 1: Clone the repo
